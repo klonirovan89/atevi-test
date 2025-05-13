@@ -1,13 +1,7 @@
 .header {
-  max-width: 1320px;
-  width: 100%;
   height: 56px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 24px;
-  margin: 24px auto 0 auto;
-  padding: 0 24px;
 
   .logo {
     display: flex;
@@ -16,7 +10,6 @@
     gap: 8px;
     color: var(--primary-gradient-800);
     cursor: pointer;
-    padding-right: 20px;
 
     svg {
       stroke: var(--primary-gradient-800);
