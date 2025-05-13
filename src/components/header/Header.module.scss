@@ -1,0 +1,90 @@
+.header {
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--primary-gradient-800);
+    cursor: pointer;
+
+    svg {
+      stroke: var(--primary-gradient-800);
+    }
+  }
+
+  .tabs {
+    max-width: 461px;
+    width: 100%;
+    height: 18px;
+    margin: 0 140px 0 160px;
+  }
+
+  .wrapper {
+    display: flex;
+    gap: 24px;
+
+    .container {
+      display: flex;
+      height: 100%;
+
+      .icon_wrapper {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background-color: var(--dark-200);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        svg {
+          stroke: var(--dark-900);
+          transition: stroke 0.3s ease;
+        }
+
+        &:hover {
+          svg {
+            stroke: var(--primary-gradient-800);
+          }
+        }
+      }
+
+      .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 32px;
+        background-color: var(--dark-200);
+        width: 151px;
+        height: 56px;
+        cursor: pointer;
+
+        svg {
+          stroke: var(--dark-900);
+          transition: stroke 0.3s ease;
+        }
+
+        h5 {
+          transition: color 0.3s ease;
+        }
+
+        &:hover {
+          h5 {
+            color: var(--primary-gradient-800);
+          }
+
+          svg {
+            stroke: var(--primary-gradient-800);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+
+[
+  {
+    "id": 1,
+    "name": "Лена",
+    "avatar": "src/assets/avatars/avatar_1.png"
+  },
+  {
+    "id": 2,
+    "name": "Марина",
+    "avatar": "src/assets/avatars/avatar_2.png"
+  },
+  {
+    "id": 3,
+    "name": "Алексей",
+    "avatar": "src/assets/avatars/avatar_3.png"
+  },
+  {
+    "id": 4,
+    "name": "Ольга",
+    "avatar": "src/assets/avatars/avatar_4.png"
+  },
+  {
+    "id": 5,
+    "name": "Дмитрий",
+    "avatar": "src/assets/avatars/avatar_5.png"
+  },
+  {
+    "id": 6,
+    "name": "Елена",
+    "avatar": "src/assets/avatars/avatar_6.png"
+  },
+  {
+    "id": 7,
+    "name": "Алеся",
+    "avatar": "src/assets/avatars/avatar_7.png"
+  },
+  {
+    "id": 8,
+    "name": "Анна",
+    "avatar": "src/assets/avatars/avatar_8.png"
+  },
+  {
+    "id": 9,
+    "name": "Светлана",
+    "avatar": "src/assets/avatars/avatar_9.png"
+  },
+  {
+    "id": 10,
+    "name": "Настя",
+    "avatar": "src/assets/avatars/avatar_10.png"
+  }
+]
